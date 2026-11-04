@@ -1,0 +1,63 @@
+{
+  "name": "react-template-20261104000907",
+  "bucket": "react-template-20261104000907",
+  "preset": "react",
+  "env": "production",
+  "prefix": "20261104000905",
+  "rotate-prefix": true,
+  "not-first-run": true,
+  "function": [],
+  "application": {
+    "id": 1793755723,
+    "name": "react-template-20261104000907"
+  },
+  "domain": {
+    "id": 0,
+    "name": "__DEFAULT__",
+    "domain_name": "",
+    "url": ""
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": null,
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 1515012,
+        "name": "Deliver Static Assets and Set Cache Policy",
+        "phase": "request"
+      },
+      {
+        "id": 1515013,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": [
+    {
+      "id": 391515,
+      "name": "react-template-20261104000907"
+    }
+  ],
+  "workloads": {
+    "id": 1793752979,
+    "name": "react-template-20261104000907",
+    "domains": [],
+    "url": "https://sjrdw6pysf8.map.azionedge.net",
+    "deployment_id": [
+      {
+        "id": 358458,
+        "name": "react-template-20261104000907"
+      }
+    ]
+  },
+  "connectors": [
+    {
+      "id": 228227,
+      "name": "react-template-20261104000907"
+    }
+  ]
+}
